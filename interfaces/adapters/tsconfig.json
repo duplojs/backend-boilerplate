@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+	  "@adapters/*": ["./*"],
+	  "@applications/*": ["../../business/applications/*"],
+	  "@domains/*": ["../../business/domains/*"],
+    },
+	"types": ["node"],
+  },
+  "include": ["**/*.ts", "../../business/domains/**/*.ts", "../../business/applications/**/*.ts"],
+}

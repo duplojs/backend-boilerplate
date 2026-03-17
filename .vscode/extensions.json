@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+	"yoavbls.pretty-ts-errors",
+	"samxchen.ts-viewer-extension",
+  ]
+}
