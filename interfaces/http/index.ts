@@ -1,10 +1,11 @@
 import { createHub, routeStore } from "@duplojs/http";
 import { createHttpServer } from "@duplojs/http/node";
+import { envs } from "@envs";
 
 import "./routes";
 
 const hub = createHub({
-	environment: "DEV",
+	environment: envs.ENVIRONMENT,
 });
 
 hub.register(routeStore.getAll());

@@ -3,5 +3,5 @@
   "compilerOptions": {
 
   },
-  "include": ["envs.ts",],
+  "include": ["envs.ts"],
 }
