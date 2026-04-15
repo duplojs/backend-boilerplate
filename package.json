@@ -7,9 +7,9 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@duplojs/http": "0.8.5",
+    "@duplojs/http": "0.11.0",
     "@duplojs/server-utils": "0.2.3",
-    "@duplojs/utils": "1.5.14"
+    "@duplojs/utils": "1.6.4"
   },
   "devDependencies": {
     "@commitlint/cli": "20.5.0",
